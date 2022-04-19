@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	border-left: 2px solid indigo;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#header {
+	height: 40px;
+}
+#header #logo {
+	border-bottom: 2px solid darkblue;
+	font-size: 28px;
+	font-style: italic;
+	font-family: Century Gothic;
+	margin-left: 4px;
+	margin-top: 1px;
+	display: inline-block;
+}
+#header #logo #logo-a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+/*--------------------*/
+
+#content {
+	border-left: 2px solid darkblue;
+	height: 400px;
+	margin-left: 1px;
+}
+#content #desnx {
+	border: 2px solid black;
+	width: 40px;
+	height: 40px;
+	margin-left: 1px;
+	animation-name: desnx;
+	animation-duration: 4s;
+}
+@keyframes desnx {
+	0% {background-color: darkblue;}
+	20% {background-image: linear-gradient(to bottom, darkblue, white);}
+	40% {background-image: linear-gradient(to bottom, darkblue, white, white);}
+	60% {background-image: linear-gradient(to bottom, darkblue, white, white, white);}
+	80% {background-image: linear-gradient(to bottom, darkblue, white, white, white, white);}
+	100% {background-color: white;}
+}
